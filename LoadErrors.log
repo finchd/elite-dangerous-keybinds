@@ -1,0 +1,10 @@
+There where errors when loading preset file: RealDogDad.4.0.binds
+Failed to find semantic: YawAxis
+Failed to find semantic: RollAxis
+Failed to find semantic: PitchAxis
+Failed to find semantic: LateralThrust
+Failed to find semantic: VerticalThrust
+Failed to find GUID for device: 
+Failed to find semantic: GunsightSystem
+Failed to find semantic: OculusReset
+
