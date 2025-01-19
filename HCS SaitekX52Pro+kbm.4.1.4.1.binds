@@ -326,7 +326,7 @@
 		<Secondary Device="SaitekX52Pro" Key="Joy_11" />
 	</HyperSuperCombination>
 	<Supercruise>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Space" />
 		<Secondary Device="Keyboard" Key="Key_F">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_RightShift" />
@@ -901,7 +901,7 @@
 	</CamTranslateZHold>
 	<GalaxyMapHome>
 		<Primary Device="Keyboard" Key="Key_Home" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX52Pro" Key="Joy_4" />
 	</GalaxyMapHome>
 	<ToggleDriveAssist>
 		<Primary Device="SaitekX52Pro" Key="Joy_6" />
@@ -1556,7 +1556,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraYawDecreaseButton>
 	<ExplorationFSSZoomIn>
-		<Primary Device="SaitekX52Pro" Key="Joy_1" />
+		<Primary Device="SaitekX52Pro" Key="Joy_15">
+			<Modifier Device="SaitekX52Pro" Key="Joy_1" />
+		</Primary>
 		<Secondary Device="Mouse" Key="Pos_Mouse_ZAxis" />
 	</ExplorationFSSZoomIn>
 	<ExplorationFSSZoomOut>
@@ -1572,16 +1574,16 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSMiniZoomOut>
 	<ExplorationFSSRadioTuningX_Raw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="SaitekX52Pro" Key="Joy_RYAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSRadioTuningX_Raw>
 	<ExplorationFSSRadioTuningX_Increase>
-		<Primary Device="SaitekX52Pro" Key="Joy_31" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="Mouse" Key="Mouse_2" />
 	</ExplorationFSSRadioTuningX_Increase>
 	<ExplorationFSSRadioTuningX_Decrease>
-		<Primary Device="SaitekX52Pro" Key="Joy_8" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="Mouse" Key="Mouse_1" />
 	</ExplorationFSSRadioTuningX_Decrease>
 	<ExplorationFSSRadioTuningAbsoluteX>
@@ -1602,9 +1604,9 @@
 	<FSSMouseXDecay Value="1" />
 	<FSSMouseYMode Value="Bindings_MousePitchInverted" />
 	<FSSMouseYDecay Value="0" />
-	<FSSMouseSensitivity Value="11.71090126" />
+	<FSSMouseSensitivity Value="10.73833752" />
 	<FSSMouseDeadzone Value="0.00000000" />
-	<FSSMouseLinearity Value="2.02024984" />
+	<FSSMouseLinearity Value="2.07975006" />
 	<ExplorationFSSTarget>
 		<Primary Device="SaitekX52Pro" Key="Joy_4" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -1747,8 +1749,8 @@
 		<ToggleOn Value="1" />
 	</HumanoidCrouchButton>
 	<HumanoidJumpButton>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="Mouse" Key="Mouse_1" />
+		<Primary Device="Keyboard" Key="Key_Space" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidJumpButton>
 	<HumanoidPrimaryInteractButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_4" />
@@ -1760,9 +1762,7 @@
 	</HumanoidSecondaryInteractButton>
 	<HumanoidItemWheelButton>
 		<Primary Device="Keyboard" Key="Key_Q" />
-		<Secondary Device="Keyboard" Key="Key_W">
-			<Hold Value="1" />
-		</Secondary>
+		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</HumanoidItemWheelButton>
 	<HumanoidEmoteWheelButton>
@@ -1803,7 +1803,7 @@
 	<HumanoidItemWheel_AcceptMouseInput Value="1" />
 	<HumanoidPrimaryFireButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_1" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Mouse" Key="Mouse_1" />
 	</HumanoidPrimaryFireButton>
 	<HumanoidZoomButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Up" />
