@@ -905,10 +905,7 @@
 	</GalaxyMapHome>
 	<ToggleDriveAssist>
 		<Primary Device="SaitekX52Pro" Key="Joy_6" />
-		<Secondary Device="Keyboard" Key="Key_Y">
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
-			<Modifier Device="Keyboard" Key="Key_RightShift" />
-		</Secondary>
+		<Secondary Device="Keyboard" Key="Key_Z" />
 		<ToggleOn Value="1" />
 	</ToggleDriveAssist>
 	<DriveAssistDefault Value="0" />
@@ -925,11 +922,11 @@
 	</SteeringAxis>
 	<SteerLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_A" />
 	</SteerLeftButton>
 	<SteerRightButton>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_D" />
 	</SteerRightButton>
 	<BuggyRollAxisRaw>
 		<Binding Device="SaitekX52Pro" Key="Joy_XAxis" />
@@ -938,11 +935,11 @@
 	</BuggyRollAxisRaw>
 	<BuggyRollLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_A" />
 	</BuggyRollLeftButton>
 	<BuggyRollRightButton>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_D" />
 	</BuggyRollRightButton>
 	<BuggyPitchAxis>
 		<Binding Device="SaitekX52Pro" Key="Joy_YAxis" />
@@ -951,46 +948,37 @@
 	</BuggyPitchAxis>
 	<BuggyPitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_W" />>
 	</BuggyPitchUpButton>
 	<BuggyPitchDownButton>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_S" />
 	</BuggyPitchDownButton>
 	<VerticalThrustersButton>
-		<Primary Device="Mouse" Key="Mouse_1" />
+		<Primary Device="Mouse" Key="Key_Space" />
 		<Secondary Device="SaitekX52Pro" Key="Joy_31" />
 		<ToggleOn Value="0" />
 	</VerticalThrustersButton>
 	<BuggyPrimaryFireButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_1" />
-		<Secondary Device="Mouse" Key="Mouse_2" />
+		<Secondary Device="Mouse" Key="Mouse_1" />
 	</BuggyPrimaryFireButton>
 	<BuggySecondaryFireButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_5" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Mouse" Key="Mouse_2" />
 	</BuggySecondaryFireButton>
 	<AutoBreakBuggyButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_10" />
-		<Secondary Device="Keyboard" Key="Key_Y">
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
-			<Modifier Device="Keyboard" Key="Key_RightAlt" />
-		</Secondary>
+		<Secondary Device="Keyboard" Key="Key_X" />
 		<ToggleOn Value="1" />
 	</AutoBreakBuggyButton>
 	<HeadlightsBuggyButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_14" />
-		<Secondary Device="Keyboard" Key="Key_Z">
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
-			<Modifier Device="Keyboard" Key="Key_RightControl" />
-		</Secondary>
+		<Secondary Device="Keyboard" Key="Key_L" />
 	</HeadlightsBuggyButton>
 	<ToggleBuggyTurretButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_11" />
-		<Secondary Device="Keyboard" Key="Key_Z">
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
-			<Modifier Device="Keyboard" Key="Key_RightShift" />
-		</Secondary>
+		<Secondary Device="Keyboard" Key="Key_U" />
 	</ToggleBuggyTurretButton>
 	<BuggyCycleFireGroupNext>
 		<Primary Device="SaitekX52Pro" Key="Joy_20">
@@ -1004,10 +992,7 @@
 	</BuggyCycleFireGroupPrevious>
 	<SelectTarget_Buggy>
 		<Primary Device="SaitekX52Pro" Key="Joy_4" />
-		<Secondary Device="Keyboard" Key="Key_Z">
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
-			<Modifier Device="Keyboard" Key="Key_RightAlt" />
-		</Secondary>
+		<Secondary Device="Mouse" Key="Mouse_2" />
 	</SelectTarget_Buggy>
 	<MouseTurretXMode Value="Bindings_MouseYaw" />
 	<MouseTurretXDecay Value="1" />
