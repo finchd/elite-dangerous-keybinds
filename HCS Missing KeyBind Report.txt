@@ -1,0 +1,8 @@
+Binds selected in Elite: HCS SaitekX52Pro+kbm.4.1.4.1
+Binds filename: C:\Users\finchd\AppData\Local\Frontier Developments\Elite Dangerous\Options\Bindings\HCS SaitekX52Pro+kbm.4.1.4.1.4.1.binds
+
+The following is a list of keys which MUST be bound to a keyboard keypress for all
+commands to function. It doesn't matter what key you bind as long as there is one.
+You can use modifiers as well so something like ALT+A or CTRL+A are fine too.
+
+Keyboard bind missing in Elite: Driving targeting: Select target ahead

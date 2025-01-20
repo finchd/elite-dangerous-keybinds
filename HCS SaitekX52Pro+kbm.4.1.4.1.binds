@@ -948,7 +948,7 @@
 	</BuggyPitchAxis>
 	<BuggyPitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="Keyboard" Key="Key_W" />>
+		<Secondary Device="Keyboard" Key="Key_W" />
 	</BuggyPitchUpButton>
 	<BuggyPitchDownButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -992,7 +992,8 @@
 	</BuggyCycleFireGroupPrevious>
 	<SelectTarget_Buggy>
 		<Primary Device="SaitekX52Pro" Key="Joy_4" />
-		<Secondary Device="Mouse" Key="Mouse_2" />
+		<!--<Secondary Device="Mouse" Key="Mouse_2" /> -->
+		<Secondary Device="Keyboard" Key="Key_T" />
 	</SelectTarget_Buggy>
 	<MouseTurretXMode Value="Bindings_MouseYaw" />
 	<MouseTurretXDecay Value="1" />
