@@ -972,16 +972,25 @@
 	</BuggySecondaryFireButton>
 	<AutoBreakBuggyButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_10" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Y">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+		</Secondary>
 		<ToggleOn Value="1" />
 	</AutoBreakBuggyButton>
 	<HeadlightsBuggyButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_14" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Z">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightControl" />
+		</Secondary>
 	</HeadlightsBuggyButton>
 	<ToggleBuggyTurretButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_11" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Z">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightShift" />
+		</Secondary>
 	</ToggleBuggyTurretButton>
 	<BuggyCycleFireGroupNext>
 		<Primary Device="SaitekX52Pro" Key="Joy_20">
@@ -995,7 +1004,10 @@
 	</BuggyCycleFireGroupPrevious>
 	<SelectTarget_Buggy>
 		<Primary Device="SaitekX52Pro" Key="Joy_4" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Z">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+		</Secondary>
 	</SelectTarget_Buggy>
 	<MouseTurretXMode Value="Bindings_MouseYaw" />
 	<MouseTurretXDecay Value="1" />
@@ -1069,19 +1081,31 @@
 	</IncreaseEnginesPower_Buggy>
 	<IncreaseWeaponsPower_Buggy>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Right" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_0">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+		</Secondary>
 	</IncreaseWeaponsPower_Buggy>
 	<IncreaseSystemsPower_Buggy>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Left" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_1">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightControl" />
+		</Secondary>
 	</IncreaseSystemsPower_Buggy>
 	<ResetPowerDistribution_Buggy>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Down" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_1">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightShift" />
+		</Secondary>
 	</ResetPowerDistribution_Buggy>
 	<ToggleCargoScoop_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="SaitekX52Pro" Key="Joy_12" />
+		<Primary Device="SaitekX52Pro" Key="Joy_12" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_1">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+		</Secondary>
 		<ToggleOn Value="1" />
 	</ToggleCargoScoop_Buggy>
 	<EjectAllCargo_Buggy>
@@ -1293,15 +1317,24 @@
 	</PhotoCameraToggle_Humanoid>
 	<VanityCameraScrollLeft>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Left" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_7">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+		</Secondary>
 	</VanityCameraScrollLeft>
 	<VanityCameraScrollRight>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Right" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_8">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightControl" />
+		</Secondary>
 	</VanityCameraScrollRight>
 	<ToggleFreeCam>
 		<Primary Device="SaitekX52Pro" Key="Joy_13" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_8">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightShift" />
+		</Secondary>
 	</ToggleFreeCam>
 	<VanityCameraOne>
 		<Primary Device="Keyboard" Key="Key_1" />
@@ -1466,11 +1499,17 @@
 	</ToggleRotationLock>
 	<FixCameraRelativeToggle>
 		<Primary Device="SaitekX52Pro" Key="Joy_14" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Backspace">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightControl" />
+		</Secondary>
 	</FixCameraRelativeToggle>
 	<FixCameraWorldToggle>
 		<Primary Device="SaitekX52Pro" Key="Joy_13" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Backspace">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightShift" />
+		</Secondary>
 	</FixCameraWorldToggle>
 	<QuitCamera>
 		<Primary Device="SaitekX52Pro" Key="Joy_12" />
@@ -1515,19 +1554,31 @@
 	</CommanderCreator_Rotation>
 	<GalnetAudio_Play_Pause>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Backspace">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+		</Secondary>
 	</GalnetAudio_Play_Pause>
 	<GalnetAudio_SkipForward>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Space">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightControl" />
+		</Secondary>
 	</GalnetAudio_SkipForward>
 	<GalnetAudio_SkipBackward>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Space">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightShift" />
+		</Secondary>
 	</GalnetAudio_SkipBackward>
 	<GalnetAudio_ClearQueue>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Space">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+		</Secondary>
 	</GalnetAudio_ClearQueue>
 	<ExplorationFSSCameraPitch>
 		<Binding Device="SaitekX52Pro" Key="Joy_YAxis" />
@@ -1622,7 +1673,10 @@
 	</ExplorationSAAChangeScannedAreaViewToggle>
 	<ExplorationSAAExitThirdPerson>
 		<Primary Device="SaitekX52Pro" Key="Joy_3" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_Subtract">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightShift" />
+		</Secondary>
 	</ExplorationSAAExitThirdPerson>
 	<ExplorationSAANextGenus>
 		<Primary Device="SaitekX52Pro" Key="Joy_21" />
@@ -1754,7 +1808,10 @@
 	</HumanoidJumpButton>
 	<HumanoidPrimaryInteractButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_4" />
-		<Secondary Device="Mouse" Key="Mouse_2" />
+		<Secondary Device="Keyboard" Key="Key_U">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidPrimaryInteractButton>
 	<HumanoidSecondaryInteractButton>
 		<Primary Device="Keyboard" Key="Key_F" />
@@ -1781,11 +1838,17 @@
 	</HumanoidItemWheelButton_XAxis>
 	<HumanoidItemWheelButton_XLeft>
 		<Primary Device="SaitekX52Pro" Key="Joy_23" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_P">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidItemWheelButton_XLeft>
 	<HumanoidItemWheelButton_XRight>
 		<Primary Device="SaitekX52Pro" Key="Joy_21" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_H">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidItemWheelButton_XRight>
 	<HumanoidItemWheelButton_YAxis>
 		<Binding Device="{NoDevice}" Key="" />
@@ -1794,21 +1857,33 @@
 	</HumanoidItemWheelButton_YAxis>
 	<HumanoidItemWheelButton_YUp>
 		<Primary Device="SaitekX52Pro" Key="Joy_20" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_J">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidItemWheelButton_YUp>
 	<HumanoidItemWheelButton_YDown>
 		<Primary Device="SaitekX52Pro" Key="Joy_22" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_K">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidItemWheelButton_YDown>
 	<HumanoidItemWheel_AcceptMouseInput Value="1" />
 	<HumanoidPrimaryFireButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_1" />
-		<Secondary Device="Mouse" Key="Mouse_1" />
+		<Secondary Device="Keyboard" Key="Key_L">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidPrimaryFireButton>
 	<HumanoidZoomButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Up" />
-		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="0" />
+		<Secondary Device="Keyboard" Key="Key_V">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
+		<ToggleOn Value="1" />
 	</HumanoidZoomButton>
 	<HumanoidThrowGrenadeButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -1824,7 +1899,10 @@
 	</HumanoidReloadButton>
 	<HumanoidSwitchWeapon>
 		<Primary Device="SaitekX52Pro" Key="Joy_21" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_1">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidSwitchWeapon>
 	<HumanoidSelectPrimaryWeaponButton>
 		<Primary Device="Keyboard" Key="Key_1" />
@@ -1836,15 +1914,24 @@
 	</HumanoidSelectSecondaryWeaponButton>
 	<HumanoidSelectUtilityWeaponButton>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_4">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidSelectUtilityWeaponButton>
 	<HumanoidSelectNextWeaponButton>
 		<Primary Device="Mouse" Key="Neg_Mouse_ZAxis" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_5">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidSelectNextWeaponButton>
 	<HumanoidSelectPreviousWeaponButton>
 		<Primary Device="Mouse" Key="Pos_Mouse_ZAxis" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_6">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidSelectPreviousWeaponButton>
 	<HumanoidHideWeaponButton>
 		<Primary Device="Keyboard" Key="Key_U" />
@@ -1852,11 +1939,17 @@
 	</HumanoidHideWeaponButton>
 	<HumanoidSelectNextGrenadeTypeButton>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_8">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidSelectNextGrenadeTypeButton>
 	<HumanoidSelectPreviousGrenadeTypeButton>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_9">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidSelectPreviousGrenadeTypeButton>
 	<HumanoidToggleFlashlightButton>
 		<Primary Device="Keyboard" Key="Key_T" />
@@ -1872,27 +1965,45 @@
 	</HumanoidToggleShieldsButton>
 	<HumanoidClearAuthorityLevel>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_C">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidClearAuthorityLevel>
 	<HumanoidHealthPack>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Q">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidHealthPack>
 	<HumanoidBattery>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_W">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidBattery>
 	<HumanoidSelectFragGrenade>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_E">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidSelectFragGrenade>
 	<HumanoidSelectEMPGrenade>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_R">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidSelectEMPGrenade>
 	<HumanoidSelectShieldGrenade>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_T">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidSelectShieldGrenade>
 	<HumanoidSwitchToRechargeTool>
 		<Primary Device="Keyboard" Key="Key_3" />
@@ -1922,26 +2033,33 @@
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Left">
 			<Modifier Device="SaitekX52Pro" Key="Joy_31" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_6">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</GalaxyMapOpen_Humanoid>
 	<SystemMapOpen_Humanoid>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Right">
 			<Modifier Device="SaitekX52Pro" Key="Joy_31" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_7">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</SystemMapOpen_Humanoid>
 	<FocusCommsPanel_Humanoid>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_8">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</FocusCommsPanel_Humanoid>
 	<QuickCommsPanel_Humanoid>
 		<Primary Device="Keyboard" Key="Key_Enter" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</QuickCommsPanel_Humanoid>
 	<HumanoidOpenAccessPanelButton>
-		<Primary Device="Keyboard" Key="Key_Q">
-			<Hold Value="1" />
-		</Primary>
+		<Primary Device="Keyboard" Key="Key_Q" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidOpenAccessPanelButton>
 	<HumanoidConflictContextualUIButton>
@@ -1978,34 +2096,58 @@
 	</StoreToggle>
 	<HumanoidEmoteSlot1>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_B">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidEmoteSlot1>
 	<HumanoidEmoteSlot2>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Z">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidEmoteSlot2>
 	<HumanoidEmoteSlot3>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_X">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidEmoteSlot3>
 	<HumanoidEmoteSlot4>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_N">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidEmoteSlot4>
 	<HumanoidEmoteSlot5>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_M">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidEmoteSlot5>
 	<HumanoidEmoteSlot6>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_F">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidEmoteSlot6>
 	<HumanoidEmoteSlot7>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_D">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidEmoteSlot7>
 	<HumanoidEmoteSlot8>
 		<Primary Device="SaitekX52Pro" Key="Joy_6" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_S">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_Apps" />
+		</Secondary>
 	</HumanoidEmoteSlot8>
 </Root>
