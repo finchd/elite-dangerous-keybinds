@@ -955,7 +955,7 @@
 		<Secondary Device="Keyboard" Key="Key_S" />
 	</BuggyPitchDownButton>
 	<VerticalThrustersButton>
-		<Primary Device="Mouse" Key="Key_Space" />
+		<Primary Device="Keyboard" Key="Key_Space" />
 		<Secondary Device="SaitekX52Pro" Key="Joy_31" />
 		<ToggleOn Value="0" />
 	</VerticalThrustersButton>
@@ -1794,14 +1794,11 @@
 	</HumanoidJumpButton>
 	<HumanoidPrimaryInteractButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_4" />
-		<Secondary Device="Keyboard" Key="Key_U">
-			<Modifier Device="Keyboard" Key="Key_RightAlt" />
-			<Modifier Device="Keyboard" Key="Key_Apps" />
-		</Secondary>
+		<Secondary Device="Keyboard" Key="Key_E" />
 	</HumanoidPrimaryInteractButton>
 	<HumanoidSecondaryInteractButton>
-		<Primary Device="Keyboard" Key="Key_F" />
-		<Secondary Device="SaitekX52Pro" Key="Joy_3" />
+		<Primary Device="SaitekX52Pro" Key="Joy_3" />
+		<Secondary Device="Keyboard" Key="Key_F" />
 	</HumanoidSecondaryInteractButton>
 	<HumanoidItemWheelButton>
 		<Primary Device="Keyboard" Key="Key_Q" />
@@ -1858,17 +1855,11 @@
 	<HumanoidItemWheel_AcceptMouseInput Value="1" />
 	<HumanoidPrimaryFireButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_1" />
-		<Secondary Device="Keyboard" Key="Key_L">
-			<Modifier Device="Keyboard" Key="Key_RightAlt" />
-			<Modifier Device="Keyboard" Key="Key_Apps" />
-		</Secondary>
+		<Secondary Device="Mouse" Key="Mouse_1" />
 	</HumanoidPrimaryFireButton>
 	<HumanoidZoomButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Up" />
-		<Secondary Device="Keyboard" Key="Key_V">
-			<Modifier Device="Keyboard" Key="Key_RightAlt" />
-			<Modifier Device="Keyboard" Key="Key_Apps" />
-		</Secondary>
+		<Secondary Device="Mouse" Key="Mouse_2" />
 		<ToggleOn Value="1" />
 	</HumanoidZoomButton>
 	<HumanoidThrowGrenadeButton>
