@@ -1611,16 +1611,16 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSMiniZoomOut>
 	<ExplorationFSSRadioTuningX_Raw>
-		<Binding Device="SaitekX52Pro" Key="Joy_RYAxis" />
+		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSRadioTuningX_Raw>
 	<ExplorationFSSRadioTuningX_Increase>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX52Pro" Key="Joy_25" />
 		<Secondary Device="Mouse" Key="Mouse_2" />
 	</ExplorationFSSRadioTuningX_Increase>
 	<ExplorationFSSRadioTuningX_Decrease>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX52Pro" Key="Joy_27" />
 		<Secondary Device="Mouse" Key="Mouse_1" />
 	</ExplorationFSSRadioTuningX_Decrease>
 	<ExplorationFSSRadioTuningAbsoluteX>
@@ -1854,12 +1854,18 @@
 	</HumanoidItemWheelButton_YDown>
 	<HumanoidItemWheel_AcceptMouseInput Value="1" />
 	<HumanoidPrimaryFireButton>
-		<Primary Device="SaitekX52Pro" Key="Joy_1" />
-		<Secondary Device="Mouse" Key="Mouse_1" />
+		<Primary Device="Mouse" Key="Mouse_1" />
+		<Secondary Device="Keyboard" Key="Key_I">
+			<Modifier Device="Keyboard" Key="Key_RightControl" />
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+		</Secondary>
 	</HumanoidPrimaryFireButton>
 	<HumanoidZoomButton>
-		<Primary Device="SaitekX52Pro" Key="Joy_POV1Up" />
-		<Secondary Device="Mouse" Key="Mouse_2" />
+		<Primary Device="Mouse" Key="Mouse_2" />
+		<Secondary Device="Keyboard" Key="Key_O">
+			<Modifier Device="Keyboard" Key="Key_RightControl" />
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+		</Secondary>
 		<ToggleOn Value="1" />
 	</HumanoidZoomButton>
 	<HumanoidThrowGrenadeButton>
