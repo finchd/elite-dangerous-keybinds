@@ -492,7 +492,7 @@
 		</Secondary>
 	</DeployHeatSink>
 	<ShipSpotLightToggle>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_L" />
 		<Secondary Device="Keyboard" Key="Key_N">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_RightControl" />
@@ -621,7 +621,9 @@
 		</Secondary>
 	</EngineColourToggle>
 	<NightVisionToggle>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_N">
+			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+		</Primary>
 		<Secondary Device="Keyboard" Key="Key_N">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_RightAlt" />
@@ -2006,7 +2008,9 @@
 		<Secondary Device="SaitekX52Pro" Key="Joy_14" />
 	</HumanoidToggleToolModeButton>
 	<HumanoidToggleMissionHelpPanelButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_H">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidToggleMissionHelpPanelButton>
 	<HumanoidPing>
@@ -2017,25 +2021,22 @@
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Left">
 			<Modifier Device="SaitekX52Pro" Key="Joy_31" />
 		</Primary>
-		<Secondary Device="Keyboard" Key="Key_6">
-			<Modifier Device="Keyboard" Key="Key_RightAlt" />
-			<Modifier Device="Keyboard" Key="Key_Apps" />
+		<Secondary Device="Keyboard" Key="Key_G">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 		</Secondary>
 	</GalaxyMapOpen_Humanoid>
 	<SystemMapOpen_Humanoid>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Right">
 			<Modifier Device="SaitekX52Pro" Key="Joy_31" />
 		</Primary>
-		<Secondary Device="Keyboard" Key="Key_7">
-			<Modifier Device="Keyboard" Key="Key_RightAlt" />
-			<Modifier Device="Keyboard" Key="Key_Apps" />
+		<Secondary Device="Keyboard" Key="Key_S">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 		</Secondary>
 	</SystemMapOpen_Humanoid>
 	<FocusCommsPanel_Humanoid>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="Keyboard" Key="Key_8">
-			<Modifier Device="Keyboard" Key="Key_RightAlt" />
-			<Modifier Device="Keyboard" Key="Key_Apps" />
+		<Secondary Device="Keyboard" Key="Key_C">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 		</Secondary>
 	</FocusCommsPanel_Humanoid>
 	<QuickCommsPanel_Humanoid>
@@ -2048,7 +2049,9 @@
 	</HumanoidOpenAccessPanelButton>
 	<HumanoidConflictContextualUIButton>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_B">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Secondary>
 	</HumanoidConflictContextualUIButton>
 	<EnableMenuGroupsOnFoot Value="1" />
 	<EnableAimAssistOnFoot Value="1" />
