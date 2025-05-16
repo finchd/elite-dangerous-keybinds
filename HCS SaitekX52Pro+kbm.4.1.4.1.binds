@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Root PresetName="HCS SaitekX52Pro+kbm.4.1.4.1" MajorVersion="4" MinorVersion="1">
+<Root PresetName="HCS SaitekX52Pro+kbm.4.1.4.1" MajorVersion="4" MinorVersion="2">
 	<KeyboardLayout>en-US</KeyboardLayout>
 	<MouseXMode Value="" />
 	<MouseXDecay Value="0" />
@@ -367,7 +367,7 @@
 		</Secondary>
 	</CyclePreviousTarget>
 	<SelectHighestThreat>
-		<Primary Device="Keyboard" Key="Key_X" />
+		<Primary Device="SaitekX52Pro" Key="Joy_20" />
 		<Secondary Device="Keyboard" Key="Key_H">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_RightControl" />
@@ -409,7 +409,9 @@
 		</Secondary>
 	</TargetWingman2>
 	<SelectTargetsTarget>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_SemiColon">
+			<Modifier Device="Keyboard" Key="Key_RightShift" />
+		</Primary>
 		<Secondary Device="Keyboard" Key="Key_J">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_RightControl" />
@@ -423,7 +425,7 @@
 		</Secondary>
 	</WingNavLock>
 	<CycleNextSubsystem>
-		<Primary Device="Keyboard" Key="Key_S" />
+		<Primary Device="SaitekX52Pro" Key="Joy_22" />
 		<Secondary Device="Keyboard" Key="Key_J">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_RightAlt" />
@@ -629,6 +631,10 @@
 			<Modifier Device="Keyboard" Key="Key_RightAlt" />
 		</Secondary>
 	</NightVisionToggle>
+	<TriggerColonisationModule>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</TriggerColonisationModule>
 	<UIFocus>
 		<Primary Device="SaitekX52Pro" Key="Joy_6" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -981,13 +987,11 @@
 		<Secondary Device="Keyboard" Key="Key_L" />
 	</HeadlightsBuggyButton>
 	<ToggleBuggyTurretButton>
-		<Primary Device="SaitekX52Pro" Key="Joy_11" />
+		<Primary Device="SaitekX52Pro" Key="Joy_2" />
 		<Secondary Device="Keyboard" Key="Key_U" />
 	</ToggleBuggyTurretButton>
 	<BuggyCycleFireGroupNext>
-		<Primary Device="SaitekX52Pro" Key="Joy_20">
-			<Modifier Device="SaitekX52Pro" Key="Joy_8" />
-		</Primary>
+		<Primary Device="SaitekX52Pro" Key="Joy_9" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyCycleFireGroupNext>
 	<BuggyCycleFireGroupPrevious>
@@ -1000,7 +1004,7 @@
 	</SelectTarget_Buggy>
 	<MouseTurretXMode Value="Bindings_MouseYaw" />
 	<MouseTurretXDecay Value="1" />
-	<MouseTurretYMode Value="Bindings_MousePitchInverted" />
+	<MouseTurretYMode Value="Bindings_MousePitch" />
 	<MouseTurretYDecay Value="1" />
 	<BuggyTurretYawAxisRaw>
 		<Binding Device="{NoDevice}" Key="" />
@@ -1102,7 +1106,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</EjectAllCargo_Buggy>
 	<RecallDismissShip>
-		<Primary Device="SaitekX52Pro" Key="Joy_9" />
+		<Primary Device="SaitekX52Pro" Key="Joy_11" />
 		<Secondary Device="Keyboard" Key="Key_Numpad_2">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_RightControl" />
@@ -1167,7 +1171,7 @@
 		<Primary Device="SaitekX52Pro" Key="Joy_9">
 			<Modifier Device="SaitekX52Pro" Key="Joy_8" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_M" />
 	</PlayerHUDModeToggle_Buggy>
 	<HeadLookToggle_Buggy>
 		<Primary Device="SaitekX52Pro" Key="Joy_10">
@@ -1288,21 +1292,21 @@
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Mouse" Key="Mouse_3" />
 	</PhotoCameraToggle>
 	<PhotoCameraToggle_Buggy>
 		<Primary Device="Keyboard" Key="Key_Space">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Mouse" Key="Mouse_3" />
 	</PhotoCameraToggle_Buggy>
 	<PhotoCameraToggle_Humanoid>
 		<Primary Device="Keyboard" Key="Key_Space">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Mouse" Key="Mouse_3" />
 	</PhotoCameraToggle_Humanoid>
 	<VanityCameraScrollLeft>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Left" />
@@ -1366,10 +1370,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraTen>
 	<FreeCamToggleHUD>
-		<Primary Device="SaitekX52Pro" Key="Joy_9" />
-		<Secondary Device="Keyboard" Key="Key_Numpad_Enter">
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		<Primary Device="Mouse" Key="Mouse_3" />
+		<Secondary Device="Keyboard" Key="Key_H">
+			<Modifier Device="Keyboard" Key="Key_RightControl" />
 			<Modifier Device="Keyboard" Key="Key_RightAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightShift" />
 		</Secondary>
 	</FreeCamToggleHUD>
 	<FreeCamSpeedInc>
@@ -1385,7 +1390,7 @@
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</MoveFreeCamY>
-	<ThrottleRangeFreeCam Value="Bindings_ThrottleForewardOnlyFreeCam" />
+	<ThrottleRangeFreeCam Value="" />
 	<ToggleReverseThrottleInputFreeCam>
 		<Primary Device="SaitekX52Pro" Key="Joy_7" />
 		<Secondary Device="Keyboard" Key="Key_A">
@@ -1494,7 +1499,7 @@
 		</Secondary>
 	</FixCameraRelativeToggle>
 	<FixCameraWorldToggle>
-		<Primary Device="SaitekX52Pro" Key="Joy_13" />
+		<Primary Device="SaitekX52Pro" Key="Joy_9" />
 		<Secondary Device="Keyboard" Key="Key_Backspace">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_RightShift" />
@@ -1869,7 +1874,7 @@
 			<Modifier Device="Keyboard" Key="Key_RightControl" />
 			<Modifier Device="Keyboard" Key="Key_RightAlt" />
 		</Secondary>
-		<ToggleOn Value="1" />
+		<ToggleOn Value="0" />
 	</HumanoidZoomButton>
 	<HumanoidThrowGrenadeButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -1877,7 +1882,7 @@
 	</HumanoidThrowGrenadeButton>
 	<HumanoidMeleeButton>
 		<Primary Device="Keyboard" Key="Key_V" />
-		<Secondary Device="Mouse" Key="Mouse_3" />
+		<Secondary Device="Mouse" Key="Mouse_4" />
 	</HumanoidMeleeButton>
 	<HumanoidReloadButton>
 		<Primary Device="Keyboard" Key="Key_R" />
@@ -2137,4 +2142,115 @@
 			<Modifier Device="Keyboard" Key="Key_Apps" />
 		</Secondary>
 	</HumanoidEmoteSlot8>
+	<PlaceSettlement>
+		<Primary Device="SaitekX52Pro" Key="Joy_4" />
+		<Secondary Device="Keyboard" Key="Key_T" />
+	</PlaceSettlement>
+	<ChangeConstructionOption>
+		<Primary Device="Keyboard" Key="Key_J" />
+		<Secondary Device="SaitekX52Pro" Key="Joy_11" />
+	</ChangeConstructionOption>
+	<RotateSettlement>
+		<Binding Device="SaitekX52Pro" Key="Joy_XAxis" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</RotateSettlement>
+	<RotateSettlementLeft>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</RotateSettlementLeft>
+	<RotateSettlementRight>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</RotateSettlementRight>
+	<ExitSettlementPlacementCamera>
+		<Primary Device="SaitekX52Pro" Key="Joy_12" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ExitSettlementPlacementCamera>
+	<MovePlacementCamY>
+		<Binding Device="SaitekX52Pro" Key="Joy_ZAxis" />
+		<Inverted Value="1" />
+		<Deadzone Value="0.00000000" />
+	</MovePlacementCamY>
+	<MovePlacementCamForward>
+		<Primary Device="SaitekX52Pro" Key="Joy_POV1Up" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</MovePlacementCamForward>
+	<MovePlacementCamBackwards>
+		<Primary Device="SaitekX52Pro" Key="Joy_POV1Down" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</MovePlacementCamBackwards>
+	<MovePlacementCamX>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</MovePlacementCamX>
+	<MovePlacementCamRight>
+		<Primary Device="SaitekX52Pro" Key="Joy_25" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</MovePlacementCamRight>
+	<MovePlacementCamLeft>
+		<Primary Device="SaitekX52Pro" Key="Joy_27" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</MovePlacementCamLeft>
+	<MovePlacementCamZ>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</MovePlacementCamZ>
+	<MovePlacementCamUp>
+		<Primary Device="SaitekX52Pro" Key="Joy_24" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</MovePlacementCamUp>
+	<MovePlacementCamDown>
+		<Primary Device="SaitekX52Pro" Key="Joy_26" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</MovePlacementCamDown>
+	<MovePlacementCamUpAxis>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</MovePlacementCamUpAxis>
+	<MovePlacementCamDownAxis>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</MovePlacementCamDownAxis>
+	<PitchPlacementCamera>
+		<Binding Device="SaitekX52Pro" Key="Joy_YAxis" />
+		<Inverted Value="1" />
+		<Deadzone Value="0.00000000" />
+	</PitchPlacementCamera>
+	<PitchPlacementCameraUp>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</PitchPlacementCameraUp>
+	<PitchPlacementCameraDown>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</PitchPlacementCameraDown>
+	<YawPlacementCamera>
+		<Binding Device="SaitekX52Pro" Key="Joy_RZAxis" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</YawPlacementCamera>
+	<YawPlacementCameraRight>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</YawPlacementCameraRight>
+	<YawPlacementCameraLeft>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</YawPlacementCameraLeft>
+	<PlacementCamSpeedInc>
+		<Primary Device="SaitekX52Pro" Key="Joy_1" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</PlacementCamSpeedInc>
+	<PlacementCamSpeedDec>
+		<Primary Device="SaitekX52Pro" Key="Joy_6" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</PlacementCamSpeedDec>
+	<PlacementCamMouseSensitivity Value="5.00000000" />
+	<PlacementCamMouseXDecay Value="1" />
+	<PlacementCamMouseYDecay Value="1" />
 </Root>
