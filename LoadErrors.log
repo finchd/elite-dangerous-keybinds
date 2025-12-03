@@ -1,3 +1,74 @@
+There where errors when loading preset file: HCS Custom.3.0.binds
+Failed to find semantic: YawAxis
+Failed to find semantic: RollAxis
+Failed to find semantic: PitchAxis
+Failed to find semantic: LateralThrust
+Failed to find semantic: VerticalThrust
+Failed to find semantic: GunsightSystem
+Failed to find semantic: OculusReset
+
+There where errors when loading preset file: HCS Custom.4.1.binds
+Failed to find semantic: YawAxis
+Failed to find semantic: RollAxis
+Failed to find semantic: PitchAxis
+Failed to find semantic: LateralThrust
+Failed to find semantic: VerticalThrust
+Failed to find semantic: GunsightSystem
+Failed to find semantic: OculusReset
+
+There where errors when loading preset file: HCS SaitekX52Pro+kbm.3.0.3.0.binds
+Failed to find semantic: YawAxis
+Failed to find semantic: RollAxis
+Failed to find semantic: PitchAxis
+Failed to find semantic: LateralThrust
+Failed to find semantic: VerticalThrust
+Failed to find semantic: GunsightSystem
+Failed to find semantic: OculusReset
+
+There where errors when loading preset file: HCS SaitekX52Pro+kbm.4.1.4.1.4.2.binds
+Failed to find semantic: YawAxis
+Failed to find semantic: RollAxis
+Failed to find semantic: PitchAxis
+Failed to find semantic: LateralThrust
+Failed to find semantic: VerticalThrust
+Failed to find semantic: GunsightSystem
+Failed to find semantic: OculusReset
+
+There where errors when loading preset file: HCS SaitekX52Pro+kbm.4.1.4.1.binds
+Failed to find semantic: YawAxis
+Failed to find semantic: RollAxis
+Failed to find semantic: PitchAxis
+Failed to find semantic: LateralThrust
+Failed to find semantic: VerticalThrust
+Failed to find semantic: GunsightSystem
+Failed to find semantic: OculusReset
+
+There where errors when loading preset file: HCS SaitekX52Pro+kbm.4.1.binds
+Failed to find semantic: YawAxis
+Failed to find semantic: RollAxis
+Failed to find semantic: PitchAxis
+Failed to find semantic: LateralThrust
+Failed to find semantic: VerticalThrust
+Failed to find semantic: GunsightSystem
+Failed to find semantic: OculusReset
+
+There where errors when loading preset file: HCS SaitekX52Pro.3.0.binds
+Failed to find semantic: YawAxis
+Failed to find semantic: RollAxis
+Failed to find semantic: PitchAxis
+Failed to find semantic: LateralThrust
+Failed to find semantic: VerticalThrust
+Failed to find semantic: OculusReset
+
+There where errors when loading preset file: HCS SaitekX52Pro.4.1.binds
+Failed to find semantic: YawAxis
+Failed to find semantic: RollAxis
+Failed to find semantic: PitchAxis
+Failed to find semantic: LateralThrust
+Failed to find semantic: VerticalThrust
+Failed to find semantic: GunsightSystem
+Failed to find semantic: OculusReset
+
 There where errors when loading preset file: RealDogDad.4.0.binds
 Failed to find semantic: YawAxis
 Failed to find semantic: RollAxis
@@ -5,6 +76,15 @@ Failed to find semantic: PitchAxis
 Failed to find semantic: LateralThrust
 Failed to find semantic: VerticalThrust
 Failed to find GUID for device: 
+Failed to find semantic: GunsightSystem
+Failed to find semantic: OculusReset
+
+There where errors when loading preset file: xhzdlu-x52pro-voiceattack-odyssey-2024-09.binds
+Failed to find semantic: YawAxis
+Failed to find semantic: RollAxis
+Failed to find semantic: PitchAxis
+Failed to find semantic: LateralThrust
+Failed to find semantic: VerticalThrust
 Failed to find semantic: GunsightSystem
 Failed to find semantic: OculusReset
 
